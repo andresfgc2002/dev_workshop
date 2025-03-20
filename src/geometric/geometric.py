@@ -28,6 +28,16 @@ class Geometria:
         Returns:
             float: Perímetro del rectángulo
         """
+        class Geometria:
+    def area_circulo(self, radio):
+      
+        return math.pi * radio**2
+
+geometria = Geometria()  
+radio = 4.0
+area = geometria.area_circulo(radio)
+print(f"El área del círculo es: {area:.2f} unidades cuadradas")
+
         pass
     
     def area_circulo(self, radio):
